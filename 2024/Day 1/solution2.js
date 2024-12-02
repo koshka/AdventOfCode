@@ -2,7 +2,6 @@ const { parseInput } = require("./parseInput");
 
 let [list1, list2] = parseInput();
 
-// Solution
 const count = {};
 for (let i = 0; i < list2.length; i++) {
   const num = list2[i];
