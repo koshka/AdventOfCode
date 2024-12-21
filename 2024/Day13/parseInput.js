@@ -11,10 +11,6 @@ function parseInput(isTest = false) {
       const [c1, c2] = prize.match(/\d+/g).map((n) => parseInt(n));
       return { a1, a2, b1, b2, c1, c2 };
     });
-
-  // const resultInput = [];
-  // for (let i = 0; i < input.length; i++) {}
-
   return input;
 }
 
